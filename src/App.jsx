@@ -25,7 +25,7 @@ export default function App() {
   const [engine, setEngine] = useState('vanilla')
   const [theme, setTheme] = useState('space')
   const [gameType, setGameType] = useState('catch')
-  const [llm, setLlm] = useState('mistral')
+  const [llm, setLlm] = useState('claude')
   const [logs, setLogs] = useState([])
   const [html, setHtml] = useState(null)
   const [loading, setLoading] = useState(false)
